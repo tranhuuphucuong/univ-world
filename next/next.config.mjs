@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/univ-world',
   output: 'export',
   // exclude: ['api', 'middleware', 'marketing', 'blog', 'products'],
   images: {
