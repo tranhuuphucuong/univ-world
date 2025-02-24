@@ -3,7 +3,15 @@ import type { Viewport } from 'next';
 
 import './globals.css';
 
+import { cn } from '@/lib/utils';
+import { Inter } from 'next/font/google';
 import { SlugProvider } from './context/SlugContext';
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '500', '600', '700', '800', '900'],
+});
 
 export const viewport: Viewport = {
   themeColor: [
@@ -26,7 +34,9 @@ export default async function RootLayout({
   const { locale } = await params;
   return (
     <html lang={locale}>
-      <body>
+      <body
+        className={cn(inter.className, 'h-full w-full bg-white antialiased')}
+      >
         <SlugProvider>{children}</SlugProvider>
       </body>
     </html>
