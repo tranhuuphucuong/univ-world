@@ -12,9 +12,9 @@ import { useEffect, useRef } from 'react';
 // import firstPhoto from "./1.png";
 // import secondPhoto from "./2.png";
 // import thirdPhoto from "./3.png";
-const firstPhoto = '/images/fly-1.png';
-const secondPhoto = '/images/fly-2.png';
-const thirdPhoto = '/images/fly-3.png';
+const firstPhoto = '/univ-world/images/fly-1.png';
+const secondPhoto = '/univ-world/images/fly-2.png';
+const thirdPhoto = '/univ-world/images/fly-3.png';
 export function PhotoSphere() {
   //We need the instance of the component to apply plugins
   const instanceRef = useRef(null);
