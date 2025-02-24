@@ -46,7 +46,7 @@ export const Hero = ({
             <Button
               key={cta?.id}
               as={Link}
-              href={`/${locale}${cta.URL}`}
+              href={`${cta.URL}`}
               {...(cta.variant && { variant: cta.variant })}
             >
               {cta.text}
