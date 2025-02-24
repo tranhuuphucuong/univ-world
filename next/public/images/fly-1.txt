@@ -1,0 +1,25 @@
+---- ExifTool ----
+ExifTool Version Number         : 12.69
+---- System ----
+File Name                       : fly-1.png
+Directory                       : .
+File Size                       : 2.2 MB
+File Modification Date/Time     : 2025:02:19 16:27:46+07:00
+File Access Date/Time           : 2025:02:21 13:12:45+07:00
+File Inode Change Date/Time     : 2025:02:21 13:12:44+07:00
+File Permissions                : -rw-r--r--
+---- File ----
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+---- PNG ----
+Image Width                     : 1920
+Image Height                    : 960
+Bit Depth                       : 8
+Color Type                      : RGB
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+---- Composite ----
+Image Size                      : 1920x960
+Megapixels                      : 1.8
